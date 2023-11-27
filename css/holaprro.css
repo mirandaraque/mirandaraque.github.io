@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,500;0,600;1,400;1,700&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,500&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #17A589 ;
+ }
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ .heroe{
+    background-color: #fff;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 5px 0;
+    position: relative;
+    z-index:1 ;
+  }
+ 
+  .menu{
+    display: center;
+    background-color: #5DADE2 ;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+  }
+ 
+  .menu-icono{
+    text-align: center;
+    left: 10px;
+    right: 0;
+    width: 80px;
+    height: 60px;
+    z-index: 1;
+  }
+ 
+  .header-txt{
+    text-align: center;
+    width: 100%;
+    background-color: #5DADE2 ;
+    
+  }
+ 
+  .header-txt h1{
+    text-align: center;
+    color:#fff;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+ 
+  .header-txt span{
+    color: #C0392B;
+  }
+
+  /*fuerza*/
+  .fuerza{
+    padding: 30px 0;
+    background-color: #5DADE2 ;
+    position: relative;
+  }
+
+  .fuerza-content{
+    text-align: center;
+  }
+
+  .fuerza_content h1{
+    text-align: center;
+    color:#78281F;
+    font-size: 55px;
+    line-height: 70px;
+    text-transform: uppercase;
+    padding: 0 200px;
+  }
+
+  .txt-p1{
+    text-align: center;
+    font-size: 25px;
+    color: #414247;
+    padding: 10px 100px;
+  }
+  .txt-p{
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    padding: 30px 200px;
+    margin-bottom: 35px;
+  }
+
+  .fuerza-group{
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    border:  1px solid #fff;
+  }
+
+  
+  .fuerza-1{
+    padding: 0 25px;
+  }
+  .fuerza-1 img{
+    width: 200px;
+    align-items: center;
+    padding: center;
+  }
+
+  .fuerza-img{
+   position: absolute;
+   top: 0;
+   right: 0;
+  }
+
+  .fuerza-1 h3{
+    color: #000000;
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .fuerza-1 p{
+    text-align: center;
+  }
+
+   
+/*footer*/
+.footer{ 
+    background-color : #145A32 ;
+ }
+ 
+ .footer__title{
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: 30px;
+ }
+ 
+ .footer_container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 60px;
+ }
+ 
+ .pie_img{
+    width: 400px;
+    height: 250px;
+    border-radius: 30%;
+    object-fit: cover;
+ 
+ }
+ .nav--footer{
+    padding-bottom: 20px;
+    display: grid;
+    gap: 1em;
+    grid-auto-flow: row;
+    height:100%;
+ }
+ 
+ .nav_link--footer{
+    display: inline-block;
+    margin: 0;
+    margin-right: 20px;
+   font-size: 30px;
+   color: #fff;
+   font-weight: 600;
+   padding: 40px;
+ }
+ 
+ .footer_copy{
+   --padding-container: 30px 0;
+    text-align: center;
+    color: #AACCCB;
+ }
+ 
+ .footer_copyright{
+    font-weight: 300px;
+ }
+ 
+ .footer_icons{
+    display: inline-flex;
+    margin-bottom: 10px;
+ }
+ 
+ .footer_img{
+    width: 30px;
+ }
+ 
